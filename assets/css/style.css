@@ -223,9 +223,81 @@ footer {
         width: auto;
     }
 
-    header, main .bodywrap, .bodycontainer {
+    main .bodywrap, .bodycontainer {
         width: auto;
         padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        float: none;
+        flex-wrap: wrap;
+    }
+
+    header {
+        width: 100%;
+        top: 0;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+        bottom: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        width: auto;
+    }
+
+    main .bodywrap, .bodycontainer {
+        width: auto;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        float: none;
+    }
+
+    header {
+        width: 100%;
+        top: 0;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+        bottom: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    * {
+        width: auto;
+    }
+
+    main .bodywrap, .bodycontainer {
+        width: auto;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        float: none;
+    }
+
+    header {
+        width: 100%;
+        top: 0;
+        margin: auto;
     }
 
     footer {
