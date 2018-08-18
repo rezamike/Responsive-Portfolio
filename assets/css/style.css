@@ -235,7 +235,7 @@ footer {
 
     header, .nav {
         height: auto;
-        width: 100%;
+        width: auto%;
         top: 0;
         margin: auto;
     }
@@ -264,7 +264,7 @@ footer {
 
     header, .nav {
         height: auto;
-        width: 100%;
+        width: auto%;
         top: 0;
         margin: auto;
     }
@@ -287,15 +287,25 @@ footer {
         padding: 20px;
     }
 
+    h1 {
+        width: auto;
+        text-align: center;
+    }
+
     .nav {
         postion: fixed;
+        margin: auto;
+        heigth: 100%;
+        width: auto;
+        text-align: center;
     }
 
     header {
         height: auto;
-        width: 100%;
+        width: auto%;
         top: 0;
         margin: auto;
+        text-align: auto;
     }
 
     footer {
