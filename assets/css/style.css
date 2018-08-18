@@ -228,13 +228,11 @@ footer {
         padding: 20px;
     }
 
-    nav {
-        display: flex;
-        float: none;
-        flex-wrap: wrap;
+    .nav {
     }
 
-    header {
+    header, .nav {
+        height: auto;
         width: 100%;
         top: 0;
         margin: auto;
@@ -258,13 +256,12 @@ footer {
         padding: 20px;
     }
 
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        float: none;
+    .nav {
+       
     }
 
-    header {
+    header, .nav {
+        height: auto;
         width: 100%;
         top: 0;
         margin: auto;
@@ -288,13 +285,11 @@ footer {
         padding: 20px;
     }
 
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        float: none;
+    .nav {
     }
 
     header {
+        height: auto;
         width: 100%;
         top: 0;
         margin: auto;
@@ -303,7 +298,6 @@ footer {
     footer {
         width: 100%;
         bottom: 0;
-
     }
 
 }
