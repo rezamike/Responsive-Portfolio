@@ -256,6 +256,7 @@ footer {
     main .bodywrap, .bodycontainer {
         width: auto;
         padding: 20px;
+        height: auto;
     }
 
     .nav {
@@ -264,7 +265,7 @@ footer {
 
     header, .nav {
         height: auto;
-        width: auto%;
+        width: auto;
         top: 0;
         margin: auto;
     }
@@ -284,11 +285,23 @@ footer {
 
     main .bodywrap, .bodycontainer {
         width: auto;
-        padding: 20px;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .bodycontainer {
+        padding-right: 20px;
+    }
+
+    .portfolio {
+        padding: 0px 10px 0px 5px;
+        float: none;
+        width: auto;
+        margin: auto;
     }
 
     h1 {
-        width: auto;
+        width: 100%;
         text-align: center;
     }
 
@@ -296,7 +309,7 @@ footer {
         postion: fixed;
         margin: auto;
         heigth: 100%;
-        width: auto;
+        width: 100%;
         text-align: center;
     }
 
@@ -305,7 +318,6 @@ footer {
         width: auto%;
         top: 0;
         margin: auto;
-        text-align: auto;
     }
 
     footer {
