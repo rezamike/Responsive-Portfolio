@@ -229,6 +229,8 @@ footer {
     }
 
     .nav {
+        overflow: auto;
+        float:  none;
     }
 
     header, .nav {
@@ -286,6 +288,7 @@ footer {
     }
 
     .nav {
+        postion: fixed;
     }
 
     header {
