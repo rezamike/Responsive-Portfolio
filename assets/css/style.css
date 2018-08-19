@@ -267,7 +267,8 @@ footer {
     }
 
     .bodywrap {
-        padding: 300px;
+        height: auto;
+        padding-bottom: 300px;
     }
 
     .nav {
