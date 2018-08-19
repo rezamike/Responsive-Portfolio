@@ -234,10 +234,9 @@ footer {
     }
 
     header, .nav {
-        height: auto;
-        width: auto%;
         top: 0;
-        margin: auto;
+        margin: 0;
+        padding-left: 20px;
     }
 
     footer {
@@ -259,6 +258,10 @@ footer {
         height: auto;
     }
 
+    main {
+        height: 100%;
+    }
+
     .nav {
        
     }
@@ -273,7 +276,6 @@ footer {
     footer {
         width: 100%;
         bottom: 0;
-
     }
 
 }
@@ -301,21 +303,20 @@ footer {
     }
 
     h1 {
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 
     .nav {
-        postion: fixed;
         margin: auto;
-        heigth: 100%;
-        width: 100%;
+        heigth: auto;
+        width: auto;
         text-align: center;
     }
 
     header {
         height: auto;
-        width: auto%;
+        width: auto;
         top: 0;
         margin: auto;
     }
@@ -323,6 +324,15 @@ footer {
     footer {
         width: 100%;
         bottom: 0;
+    }
+
+    #name {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: auto;
     }
 
 }
