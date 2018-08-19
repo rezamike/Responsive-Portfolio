@@ -226,6 +226,7 @@ footer {
     main .bodywrap, .bodycontainer {
         width: auto;
         padding: 20px;
+        height: auto;
     }
 
     .nav {
@@ -237,6 +238,10 @@ footer {
         top: 0;
         margin: 0;
         padding-left: 20px;
+    }
+
+    header {
+        width: auto;
     }
 
     footer {
