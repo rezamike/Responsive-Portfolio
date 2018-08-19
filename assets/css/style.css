@@ -226,7 +226,10 @@ footer {
     main .bodywrap, .bodycontainer {
         width: auto;
         padding: 20px;
-        height: 100%;
+    }
+
+    .bodywrap {
+        height: auto;
     }
 
     .nav {
