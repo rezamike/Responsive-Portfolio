@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    background-image: url(../images/background.jpg);
 }
 
 a:link {
@@ -84,7 +85,6 @@ main {
     overflow: auto;
     width: 100%;
     padding: 20px 0px 80px 0px;
-    background-image: url(../images/background.jpg);
 }
 
 h2 {
@@ -219,18 +219,20 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-    * {
-        width: auto;
-    }
 
     main .bodywrap, .bodycontainer {
         width: auto;
         padding: 20px;
     }
 
+    .headcontainer {
+        width: 100%;
+    }
+
     .nav {
+        padding-right: 20px;
         overflow: auto;
-        float:  none;
+        float: right;
     }
 
     header, .nav {
@@ -252,9 +254,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    * {
-        width: auto;
-    }
 
     main .bodywrap, .bodycontainer {
         width: auto;
@@ -272,10 +271,11 @@ footer {
     }
 
     .nav {
-       
+       padding-left: 10px;
+       padding-right: 20px;
     }
 
-    header, .nav {
+    header {
         height: auto;
         width: auto;
         top: 0;
@@ -320,6 +320,7 @@ footer {
         margin: auto;
         float: none;
         text-align: center;
+        padding-left: 5px;
     }
 
     header {
@@ -335,7 +336,6 @@ footer {
 
     #name {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         text-align: center;
         width: 100%;
