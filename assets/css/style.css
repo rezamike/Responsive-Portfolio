@@ -320,7 +320,7 @@ footer {
         margin: auto;
         float: none;
         text-align: center;
-        padding-left: 20px;
+        padding: auto;
     }
 
     header {
