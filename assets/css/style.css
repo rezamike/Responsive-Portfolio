@@ -228,11 +228,6 @@ footer {
         padding: 20px;
     }
 
-    .bodywrap {
-        height: 100%;
-        padding: 300px;
-    }
-
     .nav {
         overflow: auto;
         float:  none;
@@ -269,6 +264,10 @@ footer {
 
     main {
         height: 100%;
+    }
+
+    .bodywrap {
+        padding: 300px;
     }
 
     .nav {
